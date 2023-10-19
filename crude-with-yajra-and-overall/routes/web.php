@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 Route::get('/insert',[SimpleCrudeController::class,'insert'])->name('insert');
 Route::post('/insertRecourd',[SimpleCrudeController::class,'insertRecourd'])->name('insertRecourd');
+Route::get('/list',[SimpleCrudeController::class,'list'])->name('list');
+

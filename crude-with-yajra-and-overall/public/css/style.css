@@ -1,0 +1,8 @@
+.is-invalid{
+    color: red;
+    font-size: bold;
+}
+.error{
+    color: red;
+    font: bold;
+}
